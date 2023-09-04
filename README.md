@@ -41,3 +41,5 @@ En todos los casos, los endpoins seran:
 * Feature Flags UI: http://localhost:8080/feature/
 * Load Generator UI: http://localhost:8080/loadgen/
 * Jaeger UI: http://localhost:8080/jaeger/ui/
+
+![pulpito](img/pulpi.png)
