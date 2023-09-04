@@ -2,10 +2,11 @@
 ![PulpoCon](img/logoHoriz.svg)
 Material para el taller de observabilidad en la PulpoCon 2023
 
-[Presentacion](https://github.com/marromang/pulpocon/docs/presentacion)
-[docker-compose modificado](https://github.com/marromang/pulpocon/config/docker-compose.yaml)
+## Contenido
+* [Presentacion](https://github.com/marromang/pulpocon/docs/presentacion)
+* [docker-compose modificado](https://github.com/marromang/pulpocon/config/docker-compose.yaml)
 
-# Instrucciones
+## Instrucciones
 las instrucciones originales las teneis en la web de la demo de opentelemetry, os las resumo aqui
 
 Docker
