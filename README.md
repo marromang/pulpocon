@@ -4,7 +4,7 @@ Material para el taller de observabilidad en la PulpoCon 2023
 
 ## Contenido
 * [Presentacion](https://github.com/marromang/pulpocon/docs/presentacion)
-* [docker-compose modificado](https://github.com/marromang/pulpocon/config/docker-compose.yaml)
+* [docker-compose modificado](https://github.com/marromang/pulpocon/config/docker-compose.yml)
 
 ## Instrucciones
 las instrucciones originales las teneis en la web de la demo de opentelemetry, os las resumo aqui
@@ -41,5 +41,8 @@ En todos los casos, los endpoins seran:
 * Feature Flags UI: http://localhost:8080/feature/
 * Load Generator UI: http://localhost:8080/loadgen/
 * Jaeger UI: http://localhost:8080/jaeger/ui/
+
+### Notas
+En el caso de mi Apple Silicon tuve que modificar ciertas versiones y perámetros en el docker-compose, en caso de que os haga falta, lo tenéis [aqui](https://github.com/marromang/pulpocon/config/docker-compose.yml).
 
 ![pulpito](img/pulpi.png)
