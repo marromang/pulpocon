@@ -12,13 +12,30 @@ las instrucciones originales las teneis en la web de la demo de opentelemetry, o
 Docker
 
 ```
-git clone https://github.com/teletrace/opentelemetry-demo.git
+git clone https://github.com/open-telemetry/opentelemetry-demo.git
 cd opentelemetry-demo/
 docker compose build
 docker compose up --no-build
 ```
 
-Los endpoins seran:
+Kubernetes
+```
+helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm-charts
+helm install my-otel-demo open-telemetry/opentelemetry-demo
+```
+otra opcion:
+```
+kubectl create namespace otel-demo
+kubectl apply --namespace otel-demo -f https://raw.githubusercontent.com/open-telemetry/opentelemetry-demo/main/kubernetes/opentelemetry-demo.yaml
+```
+
+Port forwarding
+```
+kubectl port-forward svc/my-otel-demo-frontendproxy 8080:8080
+kubectl port-forward svc/my-otel-demo-otelcol 4318:4318
+```
+
+En todos los casos, los endpoins seran:
 * Web store: http://localhost:8080/
 * Grafana: http://localhost:8080/grafana/
 * Feature Flags UI: http://localhost:8080/feature/
