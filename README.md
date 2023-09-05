@@ -5,7 +5,7 @@ Material para el taller de observabilidad en la PulpoCon 2023
 ## Contenido
 * [Presentacion](https://github.com/marromang/pulpocon/docs/presentacion)
 * [Fork del repo de la demo de otel](https://github.com/marromang/opentelemetry-demo)
-
+* [Documentacion oficial demo open telemetry](https://opentelemetry.io/docs/demo/)
 ## Instrucciones
 Las instrucciones originales las teneis en la [web](https://opentelemetry.io/docs/demo/docker-deployment/) de la demo de opentelemetry, os las resumo aqui
 
