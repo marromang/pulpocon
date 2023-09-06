@@ -18,21 +18,6 @@ docker compose build
 docker compose up --no-build
 ```
 
-Para usuarios de Linux
-Se ha reportado un bug en el que aparace el error
-
-Para solucionarlo (al menos por ahora), hay que :
-```
-git clone clone https://github.com/open-telemetry/opentelemetry-demo.git
-cd opentelemetry-demo/
-```
-Luego modificar el docker-compose.yml, copiando el de este mismo repo que está en la carpeta [config](https://github.com/marromang/pulpocon/config/docker-compose.yml)
-Y ya, arrancamos
-````
-docker compose build
-docker compose up --no-build
-```
-
 En todos los casos, los endpoins seran:
 * Web store: http://localhost:8080/
 * Grafana: http://localhost:8080/grafana/
